@@ -1,0 +1,4 @@
+V_in: =A; // in case of influx the left part of the equation  is empty
+V1: A+C=B+D;
+V2: D=C; 
+V_out: B=; // in case of efflux the right part of the equation  is empty 

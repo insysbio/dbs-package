@@ -1,0 +1,163 @@
+/* Additional functions for DBsolve */
+
+double ifgt(double x, double y, double s1, double s2)
+{
+	if (x>y)
+	{
+		return s1;
+	}
+	else
+	{
+		return s2;
+	}
+}
+
+double ifge(double x, double y, double s1, double s2)
+{
+	if (x>=y)
+	{
+		return s1;
+	}
+	else
+	{
+		return s2;
+	}
+}
+
+double ifle(double x, double y, double s1, double s2)
+{
+	if (x<=y)
+	{
+		return s1;
+	}
+	else
+	{
+		return s2;
+	}
+}
+
+double iflt(double x, double y, double s1, double s2)
+{
+	if (x<=y)
+	{
+		return s1;
+	}
+	else
+	{
+		return s2;
+	}
+}
+
+double ifeq(double x, double y, double s1, double s2)
+{
+	if (x==y)
+	{
+		return s1;
+	}
+	else
+	{
+		return s2;
+	}
+}
+
+
+double max2(double x, double y)
+{
+	if (y>x)
+	{
+		return y;
+	}
+	else
+	{
+		return x;
+	}
+}
+
+double min2(double x, double y)
+{
+	if (x<y)
+	{
+		return x;
+	}
+	else
+	{
+		return y;
+	}
+}
+
+
+double max3(double x, double y, double z)
+{
+	if (x>y)
+	{
+		if (x>z)
+		{
+			return x;
+		}
+		else
+		{
+			return z;
+		}
+	}
+	else
+	{
+		if (y>z)
+		{
+			return y;
+		}
+		else
+		{
+			return z;
+		}
+	}
+}
+
+double min3(double x, double y, double z)
+{
+	if (x<y)
+	{
+		if (x<z)
+		{
+			return x;
+		}
+		else
+		{
+			return z;
+		}
+	}
+	else
+	{
+		if (y<z)
+		{
+			return y;
+		}
+		else
+		{
+			return z;
+		}
+	}
+}
+
+double ln(double x)
+{
+  return log(x);
+}
+
+double sign(double x)
+{
+  if (x>0)
+	{
+		return 1;
+	}
+	else
+	{
+		if (x<0)
+		{
+			return -1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+}

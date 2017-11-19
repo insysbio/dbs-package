@@ -1,0 +1,44 @@
+,mark,move,element,end
+1,<RHS 1,2,rhs,0
+2,<RHS 2,-3,rhs,1
+3,<INI 1,2,iv,0
+4,<INI 2,-3,iv,1
+5,>Compound Names,1,compound.names,0
+6,>Mechanism Rate Low expression -Kinetic or Elementary constants,-1,compound.names,1
+7,DBSolve Optimum (new parser) 1 Jul 2006,1,slv.version,0
+8,Stoichiometric Matrix ,1,stoicheometry,0
+9,Elementary Constants ,-3,stoicheometry,1
+10,DBSolve Optimum (new parser) 1 Jul 2006,4,ode.dimension,0
+11,>Reaction Names,1,reaction.names,0
+12,>Compound Names,-1,reaction.names,1
+13,<COMMENTS 1,2,comments,0
+14,<COMMENTS 2,-3,comments,1
+15,DBSolve Optimum (new parser) 1 Jul 2006,6,time.limit,0
+16,The Number of Active P[i] for fitting ,1,fit.pars.num,0
+17,Minimum for fitting ,1,fit.pars.min,0
+18,Maximum for fitting ,1,fit.pars.max,0
+19,>Parameters for Fitting,1,fit.pars,0
+20,>Parameters for Scan,-1,fit.pars,1
+21,IsLog flag for fitting ,-1,fit.pars.step,0
+22,IsLog flag for fitting ,1,fit.pars.log,0
+23,Step for fitting ,1,fitter.min.step,0
+24,Tolerance for fitting ,1,fitter.min.F0.change,0
+25,Tolerance for fitting sens,1,fitter.min.F0.sensitivity,0
+26,ABsolute Fitting ,1,fitter.OF.absolute,0
+27,LeastFitting ,1,fitter.OF.square,0
+28,The Number of Active P[i] for scan ,1,scan.pars.num,0
+29,>Parameters for Scan,1,scan.pars,0
+30,>Parameters for Bifurcation,-1,scan.pars,1
+31,Minimum for param scan ,1,scan.par.min,0
+32,Maximum for param scan ,1,scan.par.max,0
+33,Divisions for param scan ,1,scan.par.dev,0
+34,Iterations for param scan ,1,scan.par.iter,0
+35,Experimental Data File Name ,1,dat.file,0
+36,Variables for FileOutput ,1,output.vars,0
+37,Variables for FileOutputOn ,1,output.vars.on,0
+38,DBSolve Optimum (new parser) 1 Jul 2006,2,stoicheometry.nrows,0
+39,DBSolve Optimum (new parser) 1 Jul 2006,3,stoicheometry.ncols,0
+40,Number of fitting parameters (Old Income Flux Constant Number) ,1,fit.pars.size,0
+41,Number of scan parameters ,1,scan.pars.size,0
+42,<COMMENTS 7,4,other,0
+43,<listModelData>,-1,other,1

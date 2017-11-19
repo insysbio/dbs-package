@@ -1,0 +1,26 @@
+Package: dbs
+Type: Package
+Title: Accessory functions to support DBSolveOptimum
+Version: 0.9.0
+Date: 2017-11-20
+Author: Evgeny Metelkin,
+  Aleksey Alekseev,
+  Aleksey Kalinkin
+Maintainer: Evgeny Metelkin <Evgeny.Metelkin@gmail.com>
+Copyright: InSysBio, LLC
+Depends: 
+  R (>= 2.15.0)
+Imports: 
+  mvtnorm,
+  doParallel
+Suggests: 
+  lattice,
+  deSolve,
+  ggplot2,
+  foreach
+Description: The package provides the extended facilities for DBSolveOptimum users. It has two main purposes: (1) the creation and analysis of DBsolveOptimum inputs and outputs for multiple simulations and statistical analysis, (2) the import/export DBSolveOptimum model and data files from/to different formats.
+License: MIT
+URL: https://github.com/insysbio/dbs-package, http://sourceforge.net/projects/dbsolve/
+BugReports: https://github.com/insysbio/dbs-package/issues
+LazyData: true
+RoxygenNote: 6.0.1
