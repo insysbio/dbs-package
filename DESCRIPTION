@@ -1,6 +1,6 @@
 Package: dbs
 Type: Package
-Title: Accessory functions to support DBSolveOptimum
+Title: Accessory R functions to support DBSolveOptimum
 Version: 0.9.0
 Date: 2017-11-20
 Author: Evgeny Metelkin,
