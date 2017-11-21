@@ -15,4 +15,6 @@ write(out[[2]], "warn.log")
 
 install() # build and install
 
-load_all() # 
+install_github("insysbio/dbs-package")
+
+#load_all() # 

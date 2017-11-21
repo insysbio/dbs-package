@@ -8,6 +8,6 @@
 ^revdep$
 ^codecov\.yml$
 ^appveyor\.yml$
-^build$
+^build\\.*$
 ^drafts$
 ^\..*$
