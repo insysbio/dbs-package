@@ -4,6 +4,8 @@ _Accessory functions in R to support DBSolveOptimum_
 
 The package provides the extended facilities for DBSolveOptimum users. It has two main purposes: (1) the creation and analysis of DBsolveOptimum inputs and outputs for multiple simulations and statistical analysis, (2) the import/export DBSolveOptimum model and data files from/to different formats.
 
+DBSolveOptimum is a tool for construction and analysis of mathematical models of biological systems <http://insysbio.com/en/software/db-solve-optimum>
+
 ## Installation
 
 ###From binaries:
