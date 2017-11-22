@@ -12,8 +12,8 @@ code_files<-paste0("v0.4/R/",c(#"additionalmath.c.template",
 #package.skeleton(name="dbs",force =T, code_files=code_files)
 
 ### build, install,  check
-system("R CMD build \"Y:\\dbs-package\\src\"")
-#system("R CMD INSTALL --build --compile-both \"Z:\\_R-scripting\\dbs-package\\dbs_0.9.tar.gz\"")
+system("R CMD build \"Y:\\dbs-package\"")
+#system("R CMD INSTALL --build --compile-both \"Y:\\dbs-package\\dist\\dbs_0.9.1.tar.gz\"")
 system("R CMD check  \"C:\\Users\\evgen\\YandexDisk\\dbs_0.99.tar.gz\"")
 
 install.packages("Z:\\_temp\\dbs_0.99.tar.gz", repos = NULL, type = "source")

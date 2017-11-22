@@ -8,15 +8,15 @@ DBSolveOptimum is a tool for construction and analysis of mathematical models of
 
 ## Installation
 
-###From binaries:
+### From binaries:
 
-Download binaries from https://github.com/insysbio/dbs-package/dist/dbs_0.9.0.zip
+Download binaries from https://github.com/insysbio/dbs-package/dist/dbs_0.9.1.zip
 ```R
 # install from file
-install.packages("dbs_0.9.0.zip", repos = NULL)
+install.packages("dbs_0.9.1.zip", repos = NULL)
 ```
 
-###From sources:
+### From sources:
 
 ```R
 # install devtools to simplify installation from Github

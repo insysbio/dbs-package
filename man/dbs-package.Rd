@@ -12,7 +12,7 @@ The package provides the extended facilities for DBSolveOptimum users. It has tw
 \tabular{ll}{
 Package: \tab dbs\cr
 Type: \tab Package\cr
-Version: \tab 0.9.0\cr
+Version: \tab 0.9.1\cr
 Date: \tab 2017-11-20\cr
 License: \tab MIT\cr
 }
