@@ -20,7 +20,7 @@ install.packages("dbs_0.9.1.zip", repos = NULL)
 
 ```R
 # install devtools to simplify installation from Github
-install.packages(devtools)
+install.packages("devtools")
 # install from github
 devtools::install_github("insysbio/dbs-package")
 ```

@@ -101,6 +101,18 @@ xmax<-max(input[x.col])
 temp1<- x.seq >= xmin & x.seq <= xmax
 if (!all(temp1)) stop("x.seq is out of the range!")
 
+# Checking dataset with length==1
+groupDataset <- interaction(input[,c(nos.col, factor.col)], drop="T", sep = "-")
+groupLength <- tapply(groupDataset, groupDataset, length)
+singleLengthGroup <- as.vector(groupLength<2)
+if(any(singleLengthGroup)){
+  message("Check simulations")
+  singleLengthNames <- names(groupLength)[singleLengthGroup]
+  problemWithData <- groupDataset %in% singleLengthNames
+  show(subset(input, problemWithData))
+  stop("Some of dataset has less than two points and cannot be used")
+}
+
 # Start "interaction" procedure with time measurement
 input$group<-if(!is.null(factor.col)) interaction(input[,factor.col], drop="T", sep = "-") else as.factor("-")
 
@@ -139,13 +151,8 @@ for (k in levels(input$group)) # loop by mainFactor
       nos_col1<-NULL
       #split-apply-combine paradigma used
       input_k_i1=split(input_k_i,input_k_i$nos) #split by number of simulations
-      mat_i.inter=sapply(input_k_i1,stats::approxfun) #applying approximation
+      mat_i.inter=sapply(input_k_i1, stats::approxfun) #applying approximation
       mat_i=sapply(mat_i.inter,function(f) f(x.seq)) #combine into matrix
-#       for (i in unique(input_k_i[,3])) 
-# 		  {
-#         mat_i.inter<-stats::approxfun(input_k_i[input_k_i[,3]==i,1], input_k_i[input_k_i[,3]==i,2])
-#         mat_i<-cbind(mat_i, mat_i.inter(x.seq))
-# 		  } # for i
 	  }
    #search the column with isopt=1
 	 #t1<-unique(input_k_i[,3:4])[,2]==1
