@@ -53,7 +53,8 @@ The output is \code{data.frame} with the columns named as names in your \code{ex
 %%  ~~who you are~~
 }
 \note{
-%%  ~~further notes~~
+  \code{parsetgen} function does not provide \code{nos} column. If you need one, use 
+  \code{out<-parsetgen() followed by \code{final<-parstgen.cond(out)}}.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
