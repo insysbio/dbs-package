@@ -1,3 +1,6 @@
+[![GitHub issues](https://img.shields.io/github/issues/insysbio/dbs-package.svg)](https://GitHub.com/insysbio/dbs-package/issues/)
+[![GitHub license](https://img.shields.io/github/license/insysbio/dbs-package.svg)](https://github.com/insysbio/dbs-package/blob/master/LICENSE)
+
 # dbs-package
 
 _Accessory functions in R to support DBSolveOptimum_
@@ -8,7 +11,7 @@ DBSolveOptimum is a tool for construction and analysis of mathematical models of
 
 ## Installation
 
-### From binaries:
+### From binaries (Windows, R 3.4.0):
 
 Download binaries from https://github.com/insysbio/dbs-package/raw/master/dist/dbs_0.9.1.zip
 ```R
@@ -16,7 +19,7 @@ Download binaries from https://github.com/insysbio/dbs-package/raw/master/dist/d
 install.packages("dbs_0.9.1.zip", repos = NULL)
 ```
 
-### From sources:
+### From sources (all versions):
 
 ```R
 # install devtools to simplify installation from Github
@@ -25,11 +28,15 @@ install.packages("devtools")
 devtools::install_github("insysbio/dbs-package")
 ```
 
-### License
+## Documentation
+
+[dbs-manual.pdf](https://github.com/insysbio/dbs-package/blob/master/inst/doc/dbs-manual.pdf)
+
+## License
 
 MIT
 
-### Authors
+## Authors
 
 * Evgeny Metelkin
 * Aleksey Alekseev
